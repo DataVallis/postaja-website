@@ -1,0 +1,497 @@
+{
+  "meta": {
+    "title": "Postaja — a month of posts for every client in one afternoon",
+    "description": "An AI content studio for agencies with many brands. Postaja writes in each client's voice, designs in their look and never repeats a topic.",
+    "ogAlt": "Postaja — a month of posts for every client in one afternoon"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "how": "How it works",
+    "features": "Features",
+    "pricing": "Pricing",
+    "pilot": "Agency pilot",
+    "faq": "FAQ",
+    "login": "Log in",
+    "cta": "Start the pilot",
+    "language": "Slovenščina",
+    "languageLabel": "Switch to Slovenian",
+    "home": "Postaja — home"
+  },
+  "hero": {
+    "badge": "AI content studio for agencies",
+    "title": "A month of posts for every client in one afternoon",
+    "lead": "Postaja writes in each client's voice, designs in their look and never repeats a topic. Built for agencies and freelancers who run 5–30 brands.",
+    "ctaPilot": "Agency pilot · {price} / {days} days",
+    "ctaSample": "Free sample for your client",
+    "trust": [
+      "30-day guarantee",
+      "Cost of every click shown upfront",
+      "Servers in the EU"
+    ],
+    "board": {
+      "title": "DEPARTING TODAY",
+      "date": "Saturday, 14 Nov",
+      "rows": [
+        {
+          "time": "09:00",
+          "client": "Pekarna Zrno",
+          "what": "IG carousel 6/6",
+          "status": "ready"
+        },
+        {
+          "time": "10:30",
+          "client": "Avtohiša Drava",
+          "what": "ad set, 7 sizes",
+          "status": "review"
+        },
+        {
+          "time": "12:00",
+          "client": "Kava Ritual",
+          "what": "LinkedIn PDF",
+          "status": "published"
+        },
+        {
+          "time": "14:00",
+          "client": "Fitnes Forma",
+          "what": "Reel animation",
+          "status": "ready"
+        },
+        {
+          "time": "16:30",
+          "client": "Vinoteka Brda",
+          "what": "X thread, 5 parts",
+          "status": "ready"
+        },
+        {
+          "time": "18:00",
+          "client": "Ordinacija Nasmeh",
+          "what": "FB image + copy",
+          "status": "ready"
+        }
+      ],
+      "status": {
+        "ready": "READY",
+        "review": "IN REVIEW",
+        "published": "PUBLISHED"
+      },
+      "summary": "Today: 14 posts for 6 clients",
+      "button": "Generate the whole day · 46 credits",
+      "caption": "Example screen with made-up agency clients."
+    }
+  },
+  "strip": {
+    "label": "In short",
+    "items": [
+      "Writes in each client's voice",
+      "Every client keeps their own look",
+      "No topic twice in 180 days",
+      "Every ad size at once",
+      "Spend cap per organization"
+    ]
+  },
+  "problem": {
+    "title1": "15 clients. 15 voices.",
+    "title2": "300 posts a month.",
+    "lead": "Every client has their own brand book, language and colours. ChatGPT doesn't know any of it, and Canva doesn't write. So agencies still make every post by hand — and can't take on a new client without hiring.",
+    "cards": [
+      {
+        "tag": "01 · GENERIC",
+        "title": "AI writes like AI, not like your client",
+        "body": "The same exclamation marks, phrases and hashtags for a bakery and a law firm. You rewrite every caption."
+      },
+      {
+        "tag": "02 · SAMEY",
+        "title": "Every client looks the same",
+        "body": "The same templates for every client. Mix the posts up and you can't tell whose is whose — and the client notices first."
+      },
+      {
+        "tag": "03 · SLOW",
+        "title": "Planning takes days",
+        "body": "8–30 posts per client per month, Excel plans in ten different shapes, and topics that start repeating after three months."
+      }
+    ]
+  },
+  "how": {
+    "kicker": "HOW IT WORKS",
+    "title": "Four stops from brand book to post",
+    "lead": "Set up your first brand in 20 minutes. Have your first week of posts the same day.",
+    "steps": [
+      {
+        "title": "Upload what you already have",
+        "body": "Brand book in Word or PDF, price list in Excel, decks, logo, past posts. Postaja reads them verbatim and builds the brand's knowledge base."
+      },
+      {
+        "title": "Import a plan or ask for ideas",
+        "body": "Any Excel, CSV, Word or PDF plan — it recognises the columns itself and keeps your copy verbatim. For empty days it suggests ideas you haven't used yet."
+      },
+      {
+        "title": "Generate the whole day in one click",
+        "body": "Captions, images, carousels, animations and ads for every brand at once. The credit cost is on the button before you click."
+      },
+      {
+        "title": "Review, download, publish",
+        "body": "Platform-style previews, a ZIP with a folder per post and the caption in caption.txt. Publish by hand and mark it done — the dashboard shows what's still open today."
+      }
+    ]
+  },
+  "quality": {
+    "kicker": "QUALITY",
+    "title": "Writes like your client, not like ChatGPT",
+    "lead": "Same task, same client. The difference is what Postaja knows about the brand: voice, rules, facts from the knowledge base and past posts.",
+    "context": "Pekarna Zrno (bakery) · Instagram",
+    "genericLabel": "Generic AI",
+    "genericText": "Did you know bread is a great source of energy? Visit us today and try our delicious products! You're welcome! #bread #bakery #food #health #tasty #slovenia #breakfast",
+    "genericTags": [
+      "3 exclamation marks — the brand book bans them",
+      "7 hashtags, 2 allowed",
+      "not one fact about the bakery"
+    ],
+    "postajaText": "The dough rested for 36 hours. We just waited. The Saturday spelt loaf is in the window from 7am — while it lasts. #PekarnaZrno #homemadebread",
+    "postajaTags": [
+      "voice from the brand book: short, dry",
+      "fact from the price list: Saturday loaf, 7am",
+      "platform rules ✓"
+    ],
+    "note": "Illustrative example with a made-up client."
+  },
+  "features": {
+    "kicker": "WHAT YOU GET",
+    "title": "An answer to every agency objection",
+    "lead": "Postaja is built for many brands at once. Every client is separate: their own brand book, rules, look and memory.",
+    "items": [
+      {
+        "title": "Brand DNA",
+        "body": "Brand book, rules, examples and a knowledge base from PDF, Word, Excel and PowerPoint files. Every post records which brand-book version it used."
+      },
+      {
+        "title": "Team and roles",
+        "body": "Owners and editors, each sees only their own organization. Invite teammates; an extra member is €9 a month."
+      },
+      {
+        "title": "Each client's own look",
+        "body": "No shared templates. Postaja derives the visual identity from the client's logo and past posts and keeps it consistent."
+      },
+      {
+        "title": "Import any plan",
+        "body": "Keep the client's plan as it is. AI recognises the columns, code reads the values — dates and copy stay exact."
+      },
+      {
+        "title": "180-day memory",
+        "body": "Every idea is checked against the brand's last 180 days. Similar topics get a warning, repeats are never suggested."
+      },
+      {
+        "title": "Ad sets in every size",
+        "body": "One ad, every placement. A ZIP with a folder per size and copy.csv with copy variants for your ads manager."
+      },
+      {
+        "title": "Animations and AI persona",
+        "body": "Bring any image to life for Reels. An AI influencer with the same face every time — images and 5 or 10-second videos."
+      },
+      {
+        "title": "No cost surprises",
+        "body": "Credit cost on the button before you run, a monthly spend cap and cost per brand on the dashboard."
+      },
+      {
+        "title": "Works with Claude",
+        "body": "Postaja is an MCP server: send brand books, price lists and logos from a Claude chat straight into the right brand."
+      }
+    ]
+  },
+  "formats": {
+    "title": "Every size the network asks for — pixel-exact",
+    "lead": "Postaja checks sizes, safe zones, caption length and hashtag counts before a post is marked ready.",
+    "items": [
+      {
+        "client": "PEKARNA ZRNO",
+        "headline": "36 hours of waiting for one loaf",
+        "extra": "1 / 6",
+        "label": "IG carousel · 1080×1350"
+      },
+      {
+        "client": "FITNES FORMA",
+        "headline": "Your first workout is on us",
+        "extra": "",
+        "label": "Reel / Story · 1080×1920"
+      },
+      {
+        "client": "ORDINACIJA NASMEH",
+        "headline": "Teeth whitening: fact or myth",
+        "extra": "",
+        "label": "Feed · 1080×1080"
+      },
+      {
+        "client": "KAVA RITUAL",
+        "headline": "5 office espresso mistakes",
+        "extra": "PDF · 8 pages",
+        "label": "LinkedIn PDF carousel"
+      },
+      {
+        "client": "AVTOHIŠA DRAVA",
+        "headline": "Test drive on Saturday. No strings.",
+        "extra": "Book a slot",
+        "label": "Ad · 1200×628 + 6 more placements"
+      }
+    ]
+  },
+  "proof": {
+    "kicker": "PROOF · 4 BRANDS, 1 PERSON",
+    "title": "Postaja posts for its maker's own brands every day",
+    "lead": "Four brands, four voices, three networks. Content for LinkedIn, Instagram and X is made in Postaja and published by one person — no team.",
+    "stats": {
+      "minutesPerDay": "a day for all 4 brands",
+      "noEditPercent": "of posts published without a copy edit",
+      "postsPerMonth": "posts a month",
+      "costPerPost": "AI cost per post"
+    }
+  },
+  "pricing": {
+    "kicker": "PRICING",
+    "title": "Pay per brand — the way you bill your clients",
+    "lead": "AI usage is counted in credits, so video never surprises you on the invoice. Prices exclude VAT.",
+    "periodLabel": "Billing period",
+    "monthly": "Monthly",
+    "yearly": "Yearly · 2 months free",
+    "perMonth": "/ month",
+    "from": "from",
+    "billedMonthly": "Billed monthly",
+    "billedYearly": "{amount} a year",
+    "billedYearlyBonus": "{amount} a year + free onboarding",
+    "byAgreement": "Scope by agreement",
+    "featured": "FOR AGENCIES",
+    "brands": "{count, plural, one {# brand} other {# brands}}",
+    "members": "{count, plural, one {# member} other {# members}}",
+    "credits": "{count} credits / month",
+    "cta": {
+      "trial": "7-day trial",
+      "pilot": "Start with the pilot",
+      "call": "Book a call"
+    },
+    "plans": {
+      "solo": {
+        "name": "Solo",
+        "desc": "For a freelancer with a few projects.",
+        "features": [
+          "Posts, images, carousels, LinkedIn PDF",
+          "Plan import, AI ideas, 180-day memory"
+        ]
+      },
+      "studio": {
+        "name": "Studio",
+        "desc": "For a small agency or several products.",
+        "features": [
+          "Everything in Solo",
+          "+ ad sets, animations",
+          "+ competitor research"
+        ]
+      },
+      "agency": {
+        "name": "Agency",
+        "desc": "€12.45 per brand. You bill the client €300–1,500.",
+        "features": [
+          "Everything in Studio",
+          "+ 1 AI persona with video",
+          "+ onboarding call, priority support"
+        ]
+      },
+      "partner": {
+        "name": "Partner",
+        "desc": "For agencies with more than 20 clients.",
+        "features": [
+          "Brands, members and credits by agreement",
+          "Done-for-you onboarding of every client",
+          "Later: white-label under your name"
+        ]
+      }
+    },
+    "creditsTitle": "What one click costs",
+    "creditsAction": "Action",
+    "creditsCol": "Credits",
+    "creditNames": {
+      "text": "Post caption or ad copy",
+      "image": "AI illustration (image or slide)",
+      "animation": "Image animation",
+      "personaImage": "Persona image",
+      "video5": "Persona video, 5 s",
+      "video10": "Persona video, 10 s"
+    },
+    "addonsTitle": "Add-ons as you grow",
+    "addons": [
+      {
+        "name": "Extra credits",
+        "price": "500 for €25 · 2,000 for €80"
+      },
+      {
+        "name": "Extra brand / member",
+        "price": "€15 / €9 a month"
+      },
+      {
+        "name": "AI persona",
+        "price": "€49 / month"
+      },
+      {
+        "name": "Brand in 48 hours (onboarding)",
+        "price": "€149 one-off"
+      },
+      {
+        "name": "Done-for-you content",
+        "price": "€490–790 / brand"
+      }
+    ],
+    "addonsNote": "Extra credits don't expire for 12 months."
+  },
+  "pilot": {
+    "kicker": "AGENCY PILOT",
+    "title": "{days} days of posts for {brands} clients. {price}.",
+    "lead": "The Studio plan for three of your clients. We import their brand books, plans and past posts together — you test on real work, not demo data. Switch to yearly and the {price} is deducted.",
+    "cta": "Apply for the pilot",
+    "ctaDemo": "Book a 15-minute demo",
+    "foundingTitle": "Founding customers",
+    "seats": "{left} / {total} spots left",
+    "foundingBody": "The first 20 customers get free onboarding of every brand (€149 per brand), a direct line to the founder and a say in the roadmap. We never cut the base price.",
+    "guaranteeTitle": "The 8-out-of-10 guarantee",
+    "guaranteeBody": "Upload the brand book, at least 3 past posts and a plan for one client. If in the first 30 days fewer than 8 out of 10 posts go out without a manual copy edit, we refund your subscription <b>and</b> set up your brands for free.",
+    "guaranteeNote": "The risk is ours. All you put in is one hour for the import."
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "title": "What agencies ask on the first call",
+    "items": [
+      {
+        "q": "Does Postaja publish directly to the networks?",
+        "a": "Not yet. You download a ZIP with every file and caption, publish, and mark the post as published in Postaja. Direct publishing and scheduling are coming as an add-on."
+      },
+      {
+        "q": "What is a credit, and what if I run out?",
+        "a": "A credit is a unit of AI usage: a caption costs 1, an image 2, a persona video 25 or 40. You get a warning at 80 % and can buy 500 credits for €25 or 2,000 for €80. Nothing is charged without your OK."
+      },
+      {
+        "q": "My client has no brand book. Now what?",
+        "a": "Upload what you have: website, price list, logo, past posts. If you like, we set the brand up for you in 48 hours (€149 one-off, free for founding customers)."
+      },
+      {
+        "q": "Can anyone else see my clients' data?",
+        "a": "No. Every organization is isolated, and automated tests check this on every change. Files are kept in private storage in the EU with time-limited access."
+      },
+      {
+        "q": "Which languages does it write in?",
+        "a": "The language you set for the brand and channel — Slovenian, Croatian, English and others. The app itself is in Slovenian and English."
+      },
+      {
+        "q": "Is there a lock-in?",
+        "a": "Cancel the monthly plan any time; it runs to the end of the period. The yearly plan costs 10 months and includes free onboarding of every brand."
+      }
+    ]
+  },
+  "sample": {
+    "title": "Send us one client's website.",
+    "lead": "Within 24 hours you get 3 posts in their voice and look. Free, no card, no strings.",
+    "formLabel": "Free sample",
+    "name": "Name and agency",
+    "namePh": "Maja, Studio Example",
+    "email": "Email",
+    "emailPh": "maja@studio.com",
+    "website": "Client's website",
+    "websitePh": "https://",
+    "message": "What do you need? (optional)",
+    "messagePh": "Pilot, demo, a question …",
+    "submit": "Send me a sample",
+    "sending": "Sending …",
+    "privacy": "We use your details only to prepare the sample and reply by email. <link>Privacy</link>",
+    "success": "Thank you! We'll prepare the sample and send it to {email} within 24 hours.",
+    "errors": {
+      "name": "Enter your name.",
+      "email": "Enter a valid email address.",
+      "website": "Enter the client's web address, e.g. https://client.com.",
+      "failed": "Sending failed. Email us at {email}."
+    }
+  },
+  "footer": {
+    "tagline": "The daily stop where your posts wait for you. Pick them up, publish, move on.",
+    "product": "Product",
+    "account": "Account",
+    "legal": "Legal",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "vat": "VAT ID",
+    "regNo": "Registration no."
+  },
+  "legal": {
+    "back": "Back to Postaja",
+    "updated": "Last updated: {date}",
+    "privacy": {
+      "title": "Privacy policy",
+      "sections": [
+        {
+          "h": "Controller",
+          "p": "The controller of personal data is {company}, {street}, {city}, Slovenia, registration no. {regNo}, VAT ID {vatId}. Contact: {email}."
+        },
+        {
+          "h": "What we collect",
+          "p": "On this website we only collect what you enter in the form: name, agency, email, the client's web address and an optional message. We use no analytics or advertising cookies."
+        },
+        {
+          "h": "Purpose and legal basis",
+          "p": "We use the data to prepare the free sample, answer your enquiry and agree on a pilot or subscription. The legal basis is taking steps at your request before entering into a contract (Art. 6(1)(b) GDPR)."
+        },
+        {
+          "h": "Retention",
+          "p": "Enquiries are kept for at most 12 months after the last contact, unless you become a customer — then the subscription terms and statutory retention periods for accounting records apply."
+        },
+        {
+          "h": "Processors",
+          "p": "The website and app run on servers of Hetzner Online GmbH in the EU. Email is sent through an email service provider. We never sell data and do not transfer it outside the EEA without appropriate safeguards."
+        },
+        {
+          "h": "Your rights",
+          "p": "You have the right to access, rectification, erasure, restriction, objection and data portability. Send requests to {email}. You may lodge a complaint with the Slovenian Information Commissioner (www.ip-rs.si)."
+        },
+        {
+          "h": "Cookies",
+          "p": "The site only uses a necessary cookie for the language choice (NEXT_LOCALE). No consent is required for it."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of service",
+      "sections": [
+        {
+          "h": "Provider",
+          "p": "Postaja is provided by {company}, {street}, {city}, Slovenia, registration no. {regNo}, VAT ID {vatId}."
+        },
+        {
+          "h": "The service",
+          "p": "Postaja is a web app for preparing social media and ad content with artificial intelligence. The user reviews and publishes the content and is responsible for its compliance with the law and third-party rights."
+        },
+        {
+          "h": "Plans and prices",
+          "p": "Plans, credits and prices are published on this site. Prices exclude VAT, which is charged at the applicable rate. Plan credits are valid for the current billing period; purchased credits are valid for 12 months."
+        },
+        {
+          "h": "Payment and cancellation",
+          "p": "Subscriptions are paid in advance for a month or a year. A monthly plan can be cancelled any time and runs to the end of the paid period. Yearly plans are not refunded pro rata, except under the guarantee."
+        },
+        {
+          "h": "Agency pilot and guarantee",
+          "p": "The agency pilot lasts 30 days and includes the Studio plan for 3 brands. The guarantee applies if, in the first 30 days, you upload the brand book, at least 3 past posts and a plan for at least one client, and fewer than 8 out of 10 generated posts are published without a manual copy edit. In that case we refund the first period."
+        },
+        {
+          "h": "Content and data",
+          "p": "The content you upload and the content you create in Postaja is yours. Each organization's data is kept separate and used only to provide the service."
+        },
+        {
+          "h": "Liability",
+          "p": "We provide the service with professional care but do not guarantee uninterrupted operation or post results. Our liability is limited to the amount you paid in the last 12 months."
+        },
+        {
+          "h": "Changes and law",
+          "p": "We notify you of changes by email at least 30 days in advance. These terms are governed by the law of the Republic of Slovenia."
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "This stop doesn't exist.",
+    "body": "The page you're looking for has left the station. Head back to the start.",
+    "cta": "Back to start"
+  }
+}

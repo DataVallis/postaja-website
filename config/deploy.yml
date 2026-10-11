@@ -1,0 +1,49 @@
+# Kamal 2 — postaja.eu. Same setup as the Postaja app (its ADR-025/027): shared Hetzner host, host nginx terminates TLS
+# and proxies to kamal-proxy on 127.0.0.1:8080, which routes by host name. Nginx site: ops/nginx/postaja.eu.conf.
+service: postaja-website
+image: datavallis/postaja-website
+
+servers:
+  web:
+    hosts:
+      - <%= ENV.fetch("DEPLOY_HOST") %>
+
+registry:
+  server: ghcr.io
+  username:
+    - KAMAL_REGISTRY_USERNAME
+  password:
+    - KAMAL_REGISTRY_PASSWORD
+
+builder:
+  arch: amd64
+  args:
+    GIT_SHA: <%= ENV.fetch("GITHUB_SHA") { `git rev-parse HEAD`.strip } %>
+
+ssh:
+  user: deploy
+
+proxy:
+  ssl: false            # TLS is done by host nginx
+  forward_headers: true # trust X-Forwarded-* from nginx (the form's rate limit uses the client IP)
+  hosts:
+    - postaja.eu
+    - www.postaja.eu
+  app_port: 3000
+  healthcheck:
+    path: /api/health
+    interval: 3
+    timeout: 5
+
+env:
+  clear:
+    NODE_ENV: production
+    SMTP_HOST: mail.datavallis.com
+    SMTP_PORT: "465"
+  secret:
+    - SMTP_USER
+    - SMTP_PASSWORD
+    - EMAIL_FROM
+    - LEAD_TO
+
+retain_containers: 3

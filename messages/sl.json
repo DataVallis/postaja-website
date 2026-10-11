@@ -1,0 +1,497 @@
+{
+  "meta": {
+    "title": "Postaja — mesec objav za vse stranke v enem popoldnevu",
+    "description": "AI vsebinski studio za agencije z veliko brandi. Postaja piše v tonu vsake stranke, riše v njeni podobi in nobene teme ne ponovi.",
+    "ogAlt": "Postaja — mesec objav za vse stranke v enem popoldnevu"
+  },
+  "nav": {
+    "label": "Glavna navigacija",
+    "how": "Kako deluje",
+    "features": "Funkcije",
+    "pricing": "Cene",
+    "pilot": "Pilot za agencije",
+    "faq": "Vprašanja",
+    "login": "Prijava v portal",
+    "cta": "Začni pilot",
+    "language": "English",
+    "languageLabel": "Preklopi v angleščino",
+    "home": "Postaja — domov"
+  },
+  "hero": {
+    "badge": "AI vsebinski studio za agencije",
+    "title": "Mesec objav za vse stranke v enem popoldnevu",
+    "lead": "Postaja piše v tonu vsake stranke, riše v njeni podobi in nobene teme ne ponovi. Za agencije in freelancerje, ki vodijo 5–30 brandov.",
+    "ctaPilot": "Agencijski pilot · {price} / {days} dni",
+    "ctaSample": "Brezplačen vzorec za tvojo stranko",
+    "trust": [
+      "Garancija 30 dni",
+      "Cena vsakega klika vidna vnaprej",
+      "Strežniki v EU"
+    ],
+    "board": {
+      "title": "ODHODI DANES",
+      "date": "sobota, 14. 11.",
+      "rows": [
+        {
+          "time": "09:00",
+          "client": "Pekarna Zrno",
+          "what": "IG karusel 6/6",
+          "status": "ready"
+        },
+        {
+          "time": "10:30",
+          "client": "Avtohiša Drava",
+          "what": "oglasni set, 7 dimenzij",
+          "status": "review"
+        },
+        {
+          "time": "12:00",
+          "client": "Kava Ritual",
+          "what": "LinkedIn PDF",
+          "status": "published"
+        },
+        {
+          "time": "14:00",
+          "client": "Fitnes Forma",
+          "what": "animacija za Reel",
+          "status": "ready"
+        },
+        {
+          "time": "16:30",
+          "client": "Vinoteka Brda",
+          "what": "X nit, 5 delov",
+          "status": "ready"
+        },
+        {
+          "time": "18:00",
+          "client": "Ordinacija Nasmeh",
+          "what": "FB slika + besedilo",
+          "status": "ready"
+        }
+      ],
+      "status": {
+        "ready": "PRIPRAVLJENO",
+        "review": "V PREGLEDU",
+        "published": "OBJAVLJENO"
+      },
+      "summary": "Danes: 14 objav za 6 strank",
+      "button": "Ustvari ves dan · 46 kreditov",
+      "caption": "Primer zaslona z izmišljenimi strankami agencije."
+    }
+  },
+  "strip": {
+    "label": "Na kratko",
+    "items": [
+      "Piše v tonu vsake stranke",
+      "Vsaka stranka svoja podoba",
+      "Nobena tema dvakrat v 180 dneh",
+      "Vse dimenzije oglasov naenkrat",
+      "Limit porabe po organizaciji"
+    ]
+  },
+  "problem": {
+    "title1": "15 strank. 15 tonov.",
+    "title2": "300 objav na mesec.",
+    "lead": "Vsaka stranka ima svoj CGP, svoj jezik in svoje barve. ChatGPT tega ne ve, Canva pa ne piše. Zato agencija za vsako objavo še vedno dela na roke — in ne more vzeti nove stranke brez novega človeka.",
+    "cards": [
+      {
+        "tag": "01 · GENERIČNO",
+        "title": "AI piše kot AI, ne kot tvoja stranka",
+        "body": "Isti klicaji, iste fraze, isti hashtagi za pekarno in odvetniško pisarno. Vsako besedilo prepišeš."
+      },
+      {
+        "tag": "02 · ENAKO",
+        "title": "Vse stranke izgledajo enako",
+        "body": "Iste predloge za vse stranke. Ko objave pomešaš, ne veš več, katera je čigava — in stranka to opazi prva."
+      },
+      {
+        "tag": "03 · POČASI",
+        "title": "Planiranje vzame dneve",
+        "body": "8–30 objav na stranko na mesec, Excel plani v desetih oblikah in teme, ki se po treh mesecih začnejo ponavljati."
+      }
+    ]
+  },
+  "how": {
+    "kicker": "KAKO DELUJE",
+    "title": "Štiri postaje od CGP-ja do objave",
+    "lead": "Prvi brand nastaviš v 20 minutah. Prvi teden objav imaš isti dan.",
+    "steps": [
+      {
+        "title": "Naloži, kar o stranki že imaš",
+        "body": "CGP v Wordu ali PDF-ju, cenik v Excelu, predstavitev, logotip, pretekle objave. Postaja jih prebere dobesedno in iz njih sestavi bazo znanja branda."
+      },
+      {
+        "title": "Uvozi plan ali prosi za ideje",
+        "body": "Kateri koli Excel, CSV, Word ali PDF plan — stolpce prepozna sama, besedila ostanejo dobesedna. Za prazne dneve predlaga ideje, ki jih še ni bilo."
+      },
+      {
+        "title": "Ustvari ves dan v enem kliku",
+        "body": "Besedila, slike, karuseli, animacije in oglasi za vse brande hkrati. Ceno v kreditih vidiš na gumbu, preden klikneš."
+      },
+      {
+        "title": "Preglej, prenesi, objavi",
+        "body": "Predogled kot na omrežju, ZIP z mapo za vsako objavo in besedilom v caption.txt. Objaviš ročno in označiš — nadzorna plošča pokaže, kaj je za danes še odprto."
+      }
+    ]
+  },
+  "quality": {
+    "kicker": "KAKOVOST",
+    "title": "Piše kot tvoja stranka, ne kot ChatGPT",
+    "lead": "Ista naloga, ista stranka. Razlika je v tem, kar Postaja ve o brandu: ton, pravila, dejstva iz baze znanja in pretekle objave.",
+    "context": "Pekarna Zrno · Instagram",
+    "genericLabel": "Generični AI",
+    "genericText": "Ste vedeli, da je kruh odličen vir energije? Obiščite nas še danes in poskusite naše okusne izdelke! Vabljeni! #kruh #pekarna #hrana #zdravje #okusno #slovenija #zajtrk",
+    "genericTags": [
+      "3 klicaji — CGP jih prepoveduje",
+      "7 hashtagov, dovoljena 2",
+      "brez enega dejstva o pekarni"
+    ],
+    "postajaText": "Testo je počivalo 36 ur. Mi smo ga samo čakali. Sobotni pirin hlebec je v izložbi od 7.00 — dokler ga je. #PekarnaZrno #domačikruh",
+    "postajaTags": [
+      "ton iz CGP: kratko, suho",
+      "dejstvo iz cenika: sobotni hlebec, 7.00",
+      "pravila platforme ✓"
+    ],
+    "note": "Ilustrativen primer z izmišljeno stranko."
+  },
+  "features": {
+    "kicker": "KAJ DOBIŠ",
+    "title": "Vsak izgovor agencije ima svojo rešitev",
+    "lead": "Postaja je zgrajena za več brandov hkrati. Vsaka stranka je ločena: svoj CGP, svoja pravila, svoja podoba, svoj spomin.",
+    "items": [
+      {
+        "title": "Brand DNK",
+        "body": "CGP, pravila, primeri in baza znanja iz PDF, Word, Excel in PowerPoint datotek. Vsaka objava ve, katero verzijo CGP-ja je uporabila."
+      },
+      {
+        "title": "Ekipa in vloge",
+        "body": "Lastnik in urejevalci, vsak vidi samo svojo organizacijo. Sodelavce dodaš z vabilom, dodatnega člana za 9 € na mesec."
+      },
+      {
+        "title": "Lastna podoba vsake stranke",
+        "body": "Brez skupnih predlog. Vizualno podobo izpelje iz logotipa in preteklih objav stranke in jo drži dosledno."
+      },
+      {
+        "title": "Uvoz kateregakoli plana",
+        "body": "Plan stranke ostane tak, kot ga imaš. AI prepozna stolpce, vrednosti prebere koda — datumi in besedila ostanejo točni."
+      },
+      {
+        "title": "Spomin 180 dni",
+        "body": "Pred vsako idejo preveri preteklih 180 dni branda. Podobne teme opozori, enakih ne predlaga."
+      },
+      {
+        "title": "Oglasni set v vseh dimenzijah",
+        "body": "En oglas, vse postavitve. ZIP z mapo za vsako dimenzijo in copy.csv z različicami besedil za uvoz v oglaševalski sistem."
+      },
+      {
+        "title": "Animacije in AI persona",
+        "body": "Oživi katero koli sliko za Reels. AI influencer z istim obrazom vsakič — slike in video posnetki 5 ali 10 sekund."
+      },
+      {
+        "title": "Brez presenečenj pri strošku",
+        "body": "Cena v kreditih na gumbu pred zagonom, mesečni limit porabe in stroški po brandu na nadzorni plošči."
+      },
+      {
+        "title": "Povezava s Claude",
+        "body": "Postaja je MCP strežnik: CGP-je, cenike in logotipe pošlješ iz pogovora s Claude naravnost v pravi brand."
+      }
+    ]
+  },
+  "formats": {
+    "title": "Vsaka dimenzija, ki jo omrežje zahteva — na piksel natančno",
+    "lead": "Velikosti, varne cone, dolžine besedil in število hashtagov preveri Postaja, preden je objava označena kot pripravljena.",
+    "items": [
+      {
+        "client": "PEKARNA ZRNO",
+        "headline": "36 ur čakanja za en hlebec",
+        "extra": "1 / 6",
+        "label": "IG karusel · 1080×1350"
+      },
+      {
+        "client": "FITNES FORMA",
+        "headline": "Prvi trening je na nas",
+        "extra": "",
+        "label": "Reel / Story · 1080×1920"
+      },
+      {
+        "client": "ORDINACIJA NASMEH",
+        "headline": "Belenje zob: kaj je res in kaj mit",
+        "extra": "",
+        "label": "Feed · 1080×1080"
+      },
+      {
+        "client": "KAVA RITUAL",
+        "headline": "5 napak pri pripravi espressa v pisarni",
+        "extra": "PDF · 8 strani",
+        "label": "LinkedIn PDF karusel"
+      },
+      {
+        "client": "AVTOHIŠA DRAVA",
+        "headline": "Testna vožnja v soboto. Brez obveznosti.",
+        "extra": "Rezerviraj termin",
+        "label": "Oglas · 1200×628 + 6 drugih postavitev"
+      }
+    ]
+  },
+  "proof": {
+    "kicker": "DOKAZ · 4 BRANDI, 1 ČLOVEK",
+    "title": "Postaja vsak dan objavlja za brande svojega avtorja",
+    "lead": "Štirje brandi, štirje toni, tri omrežja. Vsebina za LinkedIn, Instagram in X nastane v Postaji, objavi jo en človek — brez ekipe.",
+    "stats": {
+      "minutesPerDay": "na dan za vse 4 brande",
+      "noEditPercent": "objav brez popravka besedila",
+      "postsPerMonth": "objav na mesec",
+      "costPerPost": "strošek AI na objavo"
+    }
+  },
+  "pricing": {
+    "kicker": "CENE",
+    "title": "Plačaš po številu brandov — tako kot zaračunaš strankam",
+    "lead": "Poraba AI je v kreditih, zato te video ne preseneti na računu. Cene so brez DDV.",
+    "periodLabel": "Obračunsko obdobje",
+    "monthly": "Mesečno",
+    "yearly": "Letno · 2 meseca gratis",
+    "perMonth": "/ mesec",
+    "from": "od",
+    "billedMonthly": "Obračun mesečno",
+    "billedYearly": "{amount} letno",
+    "billedYearlyBonus": "{amount} letno + brezplačen onboarding",
+    "byAgreement": "Obseg po dogovoru",
+    "featured": "ZA AGENCIJE",
+    "brands": "{count, plural, one {# brand} two {# branda} few {# brandi} other {# brandov}}",
+    "members": "{count, plural, one {# član} two {# člana} few {# člani} other {# članov}}",
+    "credits": "{count} kreditov / mesec",
+    "cta": {
+      "trial": "7 dni preizkusa",
+      "pilot": "Začni s pilotom",
+      "call": "Dogovori se za klic"
+    },
+    "plans": {
+      "solo": {
+        "name": "Solo",
+        "desc": "Za freelancerja z nekaj projekti.",
+        "features": [
+          "Objave, slike, karuseli, LinkedIn PDF",
+          "Uvoz plana, AI ideje, spomin 180 dni"
+        ]
+      },
+      "studio": {
+        "name": "Studio",
+        "desc": "Za malo agencijo ali več produktov.",
+        "features": [
+          "Vse iz paketa Solo",
+          "+ oglasni seti, animacije",
+          "+ raziskava konkurence"
+        ]
+      },
+      "agency": {
+        "name": "Agencija",
+        "desc": "12,45 € na brand. Stranki zaračunaš 300–1.500 €.",
+        "features": [
+          "Vse iz paketa Studio",
+          "+ 1 AI persona z videom",
+          "+ onboarding klic, prednostna podpora"
+        ]
+      },
+      "partner": {
+        "name": "Partner",
+        "desc": "Za agencije z več kot 20 strankami.",
+        "features": [
+          "Brandi, člani in krediti po dogovoru",
+          "Done-for-you onboarding vseh strank",
+          "Kasneje: white-label pod tvojim imenom"
+        ]
+      }
+    },
+    "creditsTitle": "Koliko stane en klik",
+    "creditsAction": "Dejanje",
+    "creditsCol": "Krediti",
+    "creditNames": {
+      "text": "Besedilo objave ali oglasni copy",
+      "image": "AI ilustracija (slika ali slide)",
+      "animation": "Animacija slike",
+      "personaImage": "Slika s persono",
+      "video5": "Video s persono, 5 s",
+      "video10": "Video s persono, 10 s"
+    },
+    "addonsTitle": "Dodatki, ko zraseš",
+    "addons": [
+      {
+        "name": "Dodatni krediti",
+        "price": "500 za 25 € · 2.000 za 80 €"
+      },
+      {
+        "name": "Dodaten brand / član",
+        "price": "15 € / 9 € mesečno"
+      },
+      {
+        "name": "AI persona",
+        "price": "49 € / mesec"
+      },
+      {
+        "name": "Brand v 48 urah (onboarding)",
+        "price": "149 € enkratno"
+      },
+      {
+        "name": "Done-for-you vsebina",
+        "price": "490–790 € / brand"
+      }
+    ],
+    "addonsNote": "Dodatni krediti ne potečejo 12 mesecev."
+  },
+  "pilot": {
+    "kicker": "AGENCIJSKI PILOT",
+    "title": "{days} dni objav za {brands} stranke. {price}.",
+    "lead": "Paket Studio za tri tvoje stranke. Skupaj uvozimo njihove CGP-je, plane in pretekle objave — ti preizkusiš na pravem delu, ne na demo podatkih. Ob prehodu na letno naročnino se {price} odšteje.",
+    "cta": "Prijavi se na pilot",
+    "ctaDemo": "Rezerviraj 15-minutni demo",
+    "foundingTitle": "Ustanovne stranke",
+    "seats": "{left} / {total} mest prostih",
+    "foundingBody": "Prvih 20 strank dobi brezplačen onboarding vseh brandov (149 € na brand), direktno linijo do ustanovitelja in glas pri razvoju. Osnovne cene ne znižujemo.",
+    "guaranteeTitle": "Garancija 8 od 10",
+    "guaranteeBody": "Naloži CGP, vsaj 3 pretekle objave in plan za eno stranko. Če v prvih 30 dneh manj kot 8 od 10 objav objaviš brez ročnega popravka besedila, ti vrnemo naročnino <b>in</b> brande brezplačno uredimo namesto tebe.",
+    "guaranteeNote": "Tveganje je na naši strani. Edino, kar vložiš, je ena ura za uvoz."
+  },
+  "faq": {
+    "kicker": "VPRAŠANJA",
+    "title": "Kar agencije vprašajo na prvem klicu",
+    "items": [
+      {
+        "q": "Ali Postaja objavlja neposredno na omrežja?",
+        "a": "Še ne. Prenesete ZIP z vsemi datotekami in besedili, objavite in v Postaji označite kot objavljeno. Neposredno objavljanje in urnik pripravljamo kot dodatek."
+      },
+      {
+        "q": "Kaj je kredit in kaj, ko jih zmanjka?",
+        "a": "Kredit je enota porabe AI: besedilo stane 1, slika 2, video s persono 25 ali 40. Pri 80 % porabe dobite opozorilo, dokupite 500 kreditov za 25 € ali 2.000 za 80 €. Brez dovoljenja se nič ne zaračuna."
+      },
+      {
+        "q": "Moja stranka nima CGP-ja. Kaj zdaj?",
+        "a": "Naložite, kar imate: spletno stran, cenik, logotip, pretekle objave. Če želite, brand uredimo namesto vas v 48 urah (149 € enkratno, za ustanovne stranke brezplačno)."
+      },
+      {
+        "q": "Ali drugi vidijo podatke mojih strank?",
+        "a": "Ne. Vsaka organizacija je ločena in to preverjajo avtomatski testi pri vsaki spremembi. Datoteke so v zasebni shrambi v EU, dostop do njih je časovno omejen."
+      },
+      {
+        "q": "V katerih jezikih piše?",
+        "a": "V jeziku, ki ga nastavite za brand in kanal — slovenščina, hrvaščina, angleščina in drugi. Vmesnik je v slovenščini in angleščini."
+      },
+      {
+        "q": "Je naročnina vezana?",
+        "a": "Mesečno naročnino lahko odpoveste kadar koli, velja do konca obdobja. Letna naročnina stane 10 mesečnih in vključuje brezplačen onboarding vseh brandov."
+      }
+    ]
+  },
+  "sample": {
+    "title": "Pošlji spletno stran ene stranke.",
+    "lead": "V 24 urah dobiš 3 objave v njenem tonu in podobi. Brezplačno, brez kartice, brez obveznosti.",
+    "formLabel": "Brezplačen vzorec",
+    "name": "Ime in agencija",
+    "namePh": "Maja, Studio Primer",
+    "email": "E-pošta",
+    "emailPh": "maja@studio.si",
+    "website": "Spletna stran stranke",
+    "websitePh": "https://",
+    "message": "Kaj želiš? (neobvezno)",
+    "messagePh": "Pilot, demo, vprašanje …",
+    "submit": "Pošlji mi vzorec",
+    "sending": "Pošiljam …",
+    "privacy": "Podatke uporabimo samo za pripravo vzorca in odgovor po e-pošti. <link>Zasebnost</link>",
+    "success": "Hvala! Vzorec pripravimo in ti ga pošljemo v 24 urah na {email}.",
+    "errors": {
+      "name": "Vpiši ime.",
+      "email": "Vpiši veljaven e-naslov.",
+      "website": "Vpiši spletni naslov stranke, npr. https://stranka.si.",
+      "failed": "Pošiljanje ni uspelo. Piši nam na {email}."
+    }
+  },
+  "footer": {
+    "tagline": "Dnevna postaja, kjer te čakajo objave. Pobereš, objaviš, greš naprej.",
+    "product": "Produkt",
+    "account": "Račun",
+    "legal": "Pravno",
+    "terms": "Splošni pogoji",
+    "privacy": "Zasebnost",
+    "vat": "ID za DDV",
+    "regNo": "Matična številka"
+  },
+  "legal": {
+    "back": "Nazaj na Postajo",
+    "updated": "Zadnja sprememba: {date}",
+    "privacy": {
+      "title": "Politika zasebnosti",
+      "sections": [
+        {
+          "h": "Upravljavec",
+          "p": "Upravljavec osebnih podatkov je {company}, {street}, {city}, matična številka {regNo}, ID za DDV {vatId}. Kontakt: {email}."
+        },
+        {
+          "h": "Katere podatke zbiramo",
+          "p": "Na tej spletni strani zbiramo samo podatke, ki jih vpišete v obrazec: ime, naziv agencije, e-naslov, spletni naslov stranke in neobvezno sporočilo. Ne uporabljamo analitičnih ali oglaševalskih piškotkov."
+        },
+        {
+          "h": "Namen in pravna podlaga",
+          "p": "Podatke uporabimo za pripravo brezplačnega vzorca, odgovor na vaše povpraševanje in dogovor o pilotu ali naročnini. Pravna podlaga je izvajanje ukrepov na vašo zahtevo pred sklenitvijo pogodbe (točka b člena 6(1) GDPR)."
+        },
+        {
+          "h": "Hramba",
+          "p": "Povpraševanja hranimo največ 12 mesecev od zadnjega stika, razen če postanete naročnik — takrat veljajo pogoji naročnine in zakonski roki za hrambo računovodskih listin."
+        },
+        {
+          "h": "Obdelovalci",
+          "p": "Spletna stran in aplikacija tečeta na strežnikih ponudnika Hetzner Online GmbH v EU. E-pošto pošiljamo prek ponudnika e-poštnih storitev. Podatkov ne prodajamo in jih ne prenašamo izven EGP brez ustreznih zaščitnih ukrepov."
+        },
+        {
+          "h": "Vaše pravice",
+          "p": "Imate pravico do dostopa, popravka, izbrisa, omejitve obdelave, ugovora in prenosljivosti podatkov. Zahtevo pošljite na {email}. Pritožbo lahko vložite pri Informacijskem pooblaščencu RS (www.ip-rs.si)."
+        },
+        {
+          "h": "Piškotki",
+          "p": "Stran uporablja samo nujen piškotek za izbiro jezika (NEXT_LOCALE). Za ta piškotek privolitev ni potrebna."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Splošni pogoji",
+      "sections": [
+        {
+          "h": "Ponudnik",
+          "p": "Storitev Postaja zagotavlja {company}, {street}, {city}, matična številka {regNo}, ID za DDV {vatId}."
+        },
+        {
+          "h": "Storitev",
+          "p": "Postaja je spletna aplikacija za pripravo vsebin za družbena omrežja in oglase s pomočjo umetne inteligence. Vsebino pred objavo pregleda in objavi uporabnik, ki je odgovoren za njeno skladnost s predpisi in pravicami tretjih oseb."
+        },
+        {
+          "h": "Paketi in cene",
+          "p": "Paketi, krediti in cene so objavljeni na tej strani. Cene so navedene brez DDV, ki se obračuna po veljavni stopnji. Krediti iz paketa veljajo za tekoče obračunsko obdobje; dokupljeni krediti veljajo 12 mesecev."
+        },
+        {
+          "h": "Plačilo in odpoved",
+          "p": "Naročnina se plača vnaprej za mesec ali leto. Mesečno naročnino lahko odpoveste kadar koli; velja do konca plačanega obdobja. Letna naročnina se ne vrača sorazmerno, razen v primeru garancije."
+        },
+        {
+          "h": "Agencijski pilot in garancija",
+          "p": "Agencijski pilot traja 30 dni in vključuje paket Studio za 3 brande. Garancija velja, če v prvih 30 dneh za vsaj eno stranko naložite CGP, vsaj 3 pretekle objave in plan, in manj kot 8 od 10 ustvarjenih objav objavite brez ročnega popravka besedila. V tem primeru vrnemo plačilo za prvo obdobje."
+        },
+        {
+          "h": "Vsebina in podatki",
+          "p": "Vsebina, ki jo naložite, in vsebina, ki jo ustvarite v Postaji, je vaša. Podatke posamezne organizacije ločujemo od drugih in jih uporabljamo samo za izvajanje storitve."
+        },
+        {
+          "h": "Odgovornost",
+          "p": "Storitev zagotavljamo s skrbnostjo dobrega strokovnjaka, vendar ne jamčimo za neprekinjeno delovanje ali za rezultate objav. Odgovornost ponudnika je omejena na znesek, ki ste ga plačali v zadnjih 12 mesecih."
+        },
+        {
+          "h": "Spremembe in pravo",
+          "p": "O spremembah pogojev vas obvestimo po e-pošti vsaj 30 dni vnaprej. Za pogoje velja pravo Republike Slovenije."
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Ta postaja ne obstaja.",
+    "body": "Stran, ki jo iščete, je odpeljala. Vrnite se na začetek.",
+    "cta": "Na začetek"
+  }
+}

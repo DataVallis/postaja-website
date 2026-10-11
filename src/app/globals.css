@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* Postaja brand tokens (docs/brand/BRAND.md in the app repo). */
+@theme {
+  --color-ink: #12172b;
+  --color-ink-deep: #0b0f1e;
+  --color-ink-card: #141a31;
+  --color-ink-raise: #232b4a;
+  --color-ink-line: #2a3152;
+  --color-ink-row: #1a2140;
+  --color-signal: #ff5a1f;
+  --color-signal-soft: #ff8a5c;
+  --color-signal-pale: #ffb494;
+  --color-signal-text: #b23a0e;
+  --color-paper: #f4efe6;
+  --color-paper-raise: #fbf8f3;
+  --color-sand: #eae3d6;
+  --color-line: #e2dacb;
+  --color-line-strong: #d9d1c1;
+  --color-muted: #4a4f63;
+  --color-faint: #6b6f80;
+  --color-mist: #c9cdda;
+  --color-haze: #a9aec2;
+  --color-dim: #8b91a8;
+  --color-published: #4cc495;
+  --color-review: #f2c14e;
+
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px;
+  }
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-signal);
+    outline-offset: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@utility display {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.04;
+}
+
+@utility kicker {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@utility wrap {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
