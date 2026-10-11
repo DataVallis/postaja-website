@@ -21,7 +21,7 @@ export const company = {
   vatId: "SI36130800",
   registrationNo: "6560024000",
   /** TODO(owner): create this mailbox once the domain is bought. */
-  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "info@postaja.eu",
+  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "hello@postaja.eu",
 };
 
 export type PlanId = "solo" | "studio" | "agency" | "partner";
