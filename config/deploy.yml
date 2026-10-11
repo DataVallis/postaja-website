@@ -40,10 +40,11 @@ env:
     NODE_ENV: production
     SMTP_HOST: mail.datavallis.com
     SMTP_PORT: "465"
+    # From the GitHub environment "production" (variables, not secrets).
+    SMTP_USER: <%= ENV.fetch("SMTP_USER") %>
+    EMAIL_FROM: <%= ENV.fetch("EMAIL_FROM") %>
+    LEAD_TO: <%= ENV.fetch("LEAD_TO") %>
   secret:
-    - SMTP_USER
     - SMTP_PASSWORD
-    - EMAIL_FROM
-    - LEAD_TO
 
 retain_containers: 3

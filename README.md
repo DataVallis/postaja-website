@@ -42,11 +42,16 @@ Brez nastavljenega SMTP obrazec vrne napako z e-naslovom za kontakt — nikoli t
 
 ## Objava
 
-Docker (`output: standalone`) + Kamal 2 na Hetzner strežniku, enako kot aplikacija: host nginx naredi TLS in
-posreduje na kamal-proxy (`127.0.0.1:8080`), ki usmerja po imenu gostitelja.
+Docker (`output: standalone`) + Kamal 2 na Hetzner strežniku 91.99.191.8, enako kot aplikacija: host nginx naredi TLS in
+posreduje na kamal-proxy (`127.0.0.1:8080`), ki usmerja po imenu gostitelja. Push na `main` objavi stran
+(`.github/workflows/deploy.yml`, okolje GitHub **production**).
 
-1. DNS: `postaja.eu` in `www.postaja.eu` → A zapis na IP strežnika.
+1. DNS: `postaja.eu` in `www.postaja.eu` → 91.99.191.8.
 2. Na strežniku: `ops/nginx/postaja.eu.conf` + `certbot --nginx -d postaja.eu -d www.postaja.eu`.
-3. Ustvari nabiralnik za `EMAIL_FROM` (npr. `info@postaja.eu`) in vpiši skrivnosti v `.kamal/secrets`
-   (glej `.kamal/secrets.example`).
-4. `DEPLOY_HOST=<ip> kamal deploy`.
+3. GitHub → Settings → Environments → **production**:
+   - Variables: `DEPLOY_HOST`, `SMTP_USER`, `EMAIL_FROM`, `LEAD_TO`
+   - Secrets: `SMTP_PASSWORD`, `DEPLOY_SSH_KEY`, `SSH_KNOWN_HOSTS`
+4. Actions → Deploy → Run workflow z »setup« (prvič), nato vsak push na `main`.
+
+Ročno iz svojega računalnika: izvozi iste spremenljivke + `KAMAL_REGISTRY_USERNAME` / `KAMAL_REGISTRY_PASSWORD`
+(GitHub token z `write:packages`) in zaženi `kamal setup` (prvič) ali `kamal deploy`.
