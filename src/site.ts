@@ -34,11 +34,11 @@ export type Plan = {
   cta: "trial" | "pilot" | "call";
 };
 
-/** Business plan §4 (confirmed 2026-10-08). Yearly = 10 × monthly. */
+/** Business plan §4, prices from ADR-080 in the app repo (2026-10-11). Yearly = 10 × monthly. */
 export const plans: Plan[] = [
   { id: "solo", monthly: 39, brands: 2, members: 1, credits: 400, cta: "trial" },
-  { id: "studio", monthly: 99, brands: 6, members: 3, credits: 1500, cta: "pilot" },
-  { id: "agency", monthly: 249, brands: 20, members: 10, credits: 5000, featured: true, cta: "pilot" },
+  { id: "studio", monthly: 149, brands: 6, members: 3, credits: 1500, cta: "pilot" },
+  { id: "agency", monthly: 499, brands: 20, members: 10, credits: 5000, featured: true, cta: "pilot" },
   { id: "partner", monthly: 590, brands: null, members: null, credits: null, cta: "call" },
 ];
 
