@@ -66,15 +66,16 @@ export const pilot = { price: 99, days: 30, brands: 3 };
 export const founding = { total: 20, left: null as number | null };
 
 /**
- * Case study "4 brands, 1 person". Each stat shows only when its value is filled in — no invented numbers.
+ * Case study: the owner's own brands, each linked to its real profile so visitors can see the posts. Each stat shows only when its value is filled in — no invented numbers.
  * TODO(owner): take these from the Postaja dashboard (costs, published posts).
  */
 export const caseStudy = {
   brands: [
-    { name: "davidtacer.com", channel: "LinkedIn" },
-    { name: "inzenirji.si", channel: "Instagram" },
-    { name: "aibuilders.si", channel: "Instagram" },
-    { name: "cherr.io", channel: "X" },
+    { name: "davidtacer.com", channel: "LinkedIn", handle: "David Tacer", url: "https://www.linkedin.com/in/davidtacer/" },
+    { name: "inzenirji.si", channel: "Instagram", handle: "@inzenirji.si", url: "https://www.instagram.com/inzenirji.si/" },
+    { name: "aibuilders.si", channel: "Instagram", handle: "@aibuilders.si", url: "https://www.instagram.com/aibuilders.si/" },
+    { name: "petprep.si", channel: "Instagram", handle: "@petprep.si", url: "https://www.instagram.com/petprep.si/" },
+    { name: "cherr.io", channel: "X", handle: "@CherrioPlatform", url: "https://x.com/CherrioPlatform" },
   ],
   stats: {
     minutesPerDay: null as string | null,

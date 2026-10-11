@@ -234,15 +234,16 @@
     ]
   },
   "proof": {
-    "kicker": "DOKAZ · 4 BRANDI, 1 ČLOVEK",
+    "kicker": "DOKAZ · 5 BRANDOV, 1 ČLOVEK",
     "title": "Postaja vsak dan objavlja za brande svojega avtorja",
-    "lead": "Štirje brandi, štirje toni, tri omrežja. Vsebina za LinkedIn, Instagram in X nastane v Postaji, objavi jo en človek — brez ekipe.",
+    "lead": "Pet brandov, pet tonov, tri omrežja. Vsebina za LinkedIn, Instagram in X nastane v Postaji, objavi jo en človek — brez ekipe. Ne verjemi na besedo, poglej objave.",
     "stats": {
       "minutesPerDay": "na dan za vse 4 brande",
       "noEditPercent": "objav brez popravka besedila",
       "postsPerMonth": "objav na mesec",
       "costPerPost": "strošek AI na objavo"
-    }
+    },
+    "see": "Poglej objave"
   },
   "pricing": {
     "kicker": "CENE",

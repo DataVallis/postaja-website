@@ -222,21 +222,38 @@ export async function Proof() {
   );
   return (
     <section className="px-6 pb-24 md:pb-[104px]">
-      <div className="wrap flex flex-wrap gap-x-14 gap-y-10 rounded-3xl border border-line bg-white p-[clamp(28px,4vw,56px)]">
-        <div className="flex min-w-0 flex-[1_1_420px] flex-col gap-[18px]">
-          <div className="kicker text-signal-text">{t("kicker")}</div>
-          <h2 className="display m-0 text-[clamp(30px,3.6vw,44px)] leading-[1.08]">{t("title")}</h2>
-          <p className="m-0 text-[17px] leading-relaxed text-muted">{t("lead")}</p>
-          <ul className="m-0 flex list-none flex-wrap gap-2 p-0">
+      <div className="wrap flex flex-col gap-10 rounded-3xl border border-line bg-white p-[clamp(28px,4vw,56px)]">
+        <div className="flex flex-wrap gap-x-14 gap-y-10">
+          <div className="flex min-w-0 flex-[1_1_380px] flex-col gap-[18px]">
+            <div className="kicker text-signal-text">{t("kicker")}</div>
+            <h2 className="display m-0 text-[clamp(30px,3.6vw,44px)] leading-[1.08]">{t("title")}</h2>
+            <p className="m-0 text-[17px] leading-relaxed text-muted">{t("lead")}</p>
+          </div>
+          {/* Real profiles: visitors check the posts themselves. */}
+          <ul className="m-0 grid min-w-0 flex-[1_1_460px] list-none grid-cols-[repeat(auto-fit,minmax(200px,1fr))] content-center gap-3 p-0">
             {caseStudy.brands.map((b) => (
-              <li key={b.name} className="rounded-full bg-paper px-3 py-2 text-sm font-semibold">
-                {b.name} · {b.channel}
+              <li key={b.name}>
+                <a
+                  href={b.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex h-full flex-col gap-1 rounded-2xl border border-line bg-paper-raise p-4 text-ink no-underline transition-colors hover:border-ink hover:bg-ink hover:text-paper"
+                >
+                  <span className="kicker text-[11px] text-signal-text group-hover:text-signal-soft">{b.channel}</span>
+                  <span className="text-[17px] font-bold">{b.name}</span>
+                  <span className="mt-1 flex items-center justify-between gap-2 text-sm text-muted group-hover:text-mist">
+                    <span className="truncate">{b.handle}</span>
+                    <span className="whitespace-nowrap font-semibold">
+                      {t("see")} <span aria-hidden="true">↗</span>
+                    </span>
+                  </span>
+                </a>
               </li>
             ))}
           </ul>
         </div>
         {stats.length > 0 && (
-          <dl className="m-0 grid min-w-0 flex-[1_1_420px] grid-cols-[repeat(auto-fit,minmax(160px,1fr))] content-center gap-4">
+          <dl className="m-0 grid grid-cols-[repeat(auto-fit,minmax(180px,1fr))] gap-4">
             {stats.map(([key, value]) => (
               <div key={key} className="flex flex-col-reverse gap-1.5 rounded-2xl bg-ink p-[22px] text-paper">
                 <dt className="text-sm text-mist">{t(`stats.${key}`)}</dt>

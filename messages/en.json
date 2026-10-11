@@ -234,15 +234,16 @@
     ]
   },
   "proof": {
-    "kicker": "PROOF · 4 BRANDS, 1 PERSON",
+    "kicker": "PROOF · 5 BRANDS, 1 PERSON",
     "title": "Postaja posts for its maker's own brands every day",
-    "lead": "Four brands, four voices, three networks. Content for LinkedIn, Instagram and X is made in Postaja and published by one person — no team.",
+    "lead": "Five brands, five voices, three networks. Content for LinkedIn, Instagram and X is made in Postaja and published by one person — no team. Don't take our word for it: see the posts.",
     "stats": {
       "minutesPerDay": "a day for all 4 brands",
       "noEditPercent": "of posts published without a copy edit",
       "postsPerMonth": "posts a month",
       "costPerPost": "AI cost per post"
-    }
+    },
+    "see": "See the posts"
   },
   "pricing": {
     "kicker": "PRICING",
