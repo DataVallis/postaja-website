@@ -13,7 +13,7 @@ RUN corepack enable
 ENV NEXT_TELEMETRY_DISABLED=1
 # NEXT_PUBLIC_* values are baked in at build time.
 ARG NEXT_PUBLIC_SITE_URL=https://postaja.eu
-ARG NEXT_PUBLIC_APP_URL=https://postaja.inzenirji.si
+ARG NEXT_PUBLIC_APP_URL=https://peron.postaja.eu
 ARG NEXT_PUBLIC_CONTACT_EMAIL=info@postaja.eu
 ENV NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL} \
     NEXT_PUBLIC_APP_URL=${NEXT_PUBLIC_APP_URL} \

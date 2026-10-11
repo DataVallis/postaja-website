@@ -1,4 +1,5 @@
 import { setRequestLocale } from "next-intl/server";
+import { Audience } from "@/components/Audience";
 import { Faq } from "@/components/Faq";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -20,6 +21,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <Hero />
         <Strip />
         <Problem />
+        <Audience />
         <How />
         <Quality />
         <Features />

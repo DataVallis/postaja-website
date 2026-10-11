@@ -20,7 +20,7 @@
   "hero": {
     "badge": "AI content studio for agencies",
     "title": "A month of posts for every client in one afternoon",
-    "lead": "Postaja writes in each client's voice, designs in their look and never repeats a topic. Built for agencies and freelancers who run 5–30 brands.",
+    "lead": "Postaja writes in each client's voice, designs in their look and never repeats a topic. For agencies with 30 clients and for businesses that post on their own.",
     "ctaPilot": "Agency pilot · {price} / {days} days",
     "ctaSample": "Free sample for your client",
     "trust": [
@@ -269,7 +269,7 @@
     "plans": {
       "solo": {
         "name": "Solo",
-        "desc": "For a freelancer with a few projects.",
+        "desc": "For a business or person who posts on their own.",
         "features": [
           "Posts, images, carousels, LinkedIn PDF",
           "Plan import, AI ideas, 180-day memory"
@@ -361,6 +361,10 @@
         "a": "Not yet. You download a ZIP with every file and caption, publish, and mark the post as published in Postaja. Direct publishing and scheduling are coming as an add-on."
       },
       {
+        "q": "I'm not an agency. Is Postaja for me?",
+        "a": "Yes. The Solo plan is for businesses and individuals who post on their own — a salon, a restaurant, a coach or a personal profile. Upload what you have (website, price list, a few past posts) and Postaja writes in your voice. You can try it for 7 days."
+      },
+      {
         "q": "What is a credit, and what if I run out?",
         "a": "A credit is a unit of AI usage: a caption costs 1, an image 2, a persona video 25 or 40. You get a warning at 80 % and can buy 500 credits for €25 or 2,000 for €80. Nothing is charged without your OK."
       },
@@ -383,14 +387,14 @@
     ]
   },
   "sample": {
-    "title": "Send us one client's website.",
-    "lead": "Within 24 hours you get 3 posts in their voice and look. Free, no card, no strings.",
+    "title": "Send us a website.",
+    "lead": "Yours or a client's. Within 24 hours you get 3 posts in its voice and look. Free, no card, no strings.",
     "formLabel": "Free sample",
     "name": "Name and agency",
     "namePh": "Maja, Studio Example",
     "email": "Email",
     "emailPh": "maja@studio.com",
-    "website": "Client's website",
+    "website": "Website (yours or a client's)",
     "websitePh": "https://",
     "message": "What do you need? (optional)",
     "messagePh": "Pilot, demo, a question …",
@@ -493,5 +497,34 @@
     "title": "This stop doesn't exist.",
     "body": "The page you're looking for has left the station. Head back to the start.",
     "cta": "Back to start"
+  },
+  "audience": {
+    "kicker": "WHO IT'S FOR",
+    "title": "For everyone who has to post — not just agencies",
+    "lead": "One Postaja, three ways of working. Pick yours.",
+    "perMonth": "{price} / month",
+    "items": [
+      {
+        "plan": "solo",
+        "who": "Businesses and individuals",
+        "title": "Posting on your own? Postaja is your marketing department.",
+        "body": "A hair salon, a restaurant, a farm, a coach or your personal profile. No agency needed and no hunting for ideas every day: upload what you have about yourself and Postaja writes posts in your voice.",
+        "cta": "Try it for 7 days"
+      },
+      {
+        "plan": "studio",
+        "who": "Freelancers",
+        "title": "Running a few clients on your own.",
+        "body": "Every client keeps their own voice and look, and you use one tool instead of six. More clients without more hours.",
+        "cta": "Start with the pilot"
+      },
+      {
+        "plan": "agency",
+        "who": "Agencies",
+        "title": "5–30 brands, one team.",
+        "body": "A month of posts for every client in one afternoon, ads in every size and an AI persona for video.",
+        "cta": "Start with the pilot"
+      }
+    ]
   }
 }

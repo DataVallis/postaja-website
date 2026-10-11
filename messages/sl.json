@@ -20,7 +20,7 @@
   "hero": {
     "badge": "AI vsebinski studio za agencije",
     "title": "Mesec objav za vse stranke v enem popoldnevu",
-    "lead": "Postaja piše v tonu vsake stranke, riše v njeni podobi in nobene teme ne ponovi. Za agencije in freelancerje, ki vodijo 5–30 brandov.",
+    "lead": "Postaja piše v tonu vsake stranke, riše v njeni podobi in nobene teme ne ponovi. Za agencije s 30 strankami in za podjetja, ki objavljajo sama.",
     "ctaPilot": "Agencijski pilot · {price} / {days} dni",
     "ctaSample": "Brezplačen vzorec za tvojo stranko",
     "trust": [
@@ -269,7 +269,7 @@
     "plans": {
       "solo": {
         "name": "Solo",
-        "desc": "Za freelancerja z nekaj projekti.",
+        "desc": "Za podjetje ali posameznika, ki objavlja sam.",
         "features": [
           "Objave, slike, karuseli, LinkedIn PDF",
           "Uvoz plana, AI ideje, spomin 180 dni"
@@ -361,6 +361,10 @@
         "a": "Še ne. Prenesete ZIP z vsemi datotekami in besedili, objavite in v Postaji označite kot objavljeno. Neposredno objavljanje in urnik pripravljamo kot dodatek."
       },
       {
+        "q": "Nisem agencija. Je Postaja tudi zame?",
+        "a": "Da. Paket Solo je za podjetja in posameznike, ki objavljajo sami — salon, gostilna, trener ali osebni profil. Naložite, kar imate (spletno stran, cenik, nekaj preteklih objav), in Postaja piše v vašem tonu. 7 dni ga lahko preizkusite."
+      },
+      {
         "q": "Kaj je kredit in kaj, ko jih zmanjka?",
         "a": "Kredit je enota porabe AI: besedilo stane 1, slika 2, video s persono 25 ali 40. Pri 80 % porabe dobite opozorilo, dokupite 500 kreditov za 25 € ali 2.000 za 80 €. Brez dovoljenja se nič ne zaračuna."
       },
@@ -383,14 +387,14 @@
     ]
   },
   "sample": {
-    "title": "Pošlji spletno stran ene stranke.",
-    "lead": "V 24 urah dobiš 3 objave v njenem tonu in podobi. Brezplačno, brez kartice, brez obveznosti.",
+    "title": "Pošlji nam spletno stran.",
+    "lead": "Svojo ali od stranke. V 24 urah dobiš 3 objave v njenem tonu in podobi. Brezplačno, brez kartice, brez obveznosti.",
     "formLabel": "Brezplačen vzorec",
     "name": "Ime in agencija",
     "namePh": "Maja, Studio Primer",
     "email": "E-pošta",
     "emailPh": "maja@studio.si",
-    "website": "Spletna stran stranke",
+    "website": "Spletna stran (tvoja ali od stranke)",
     "websitePh": "https://",
     "message": "Kaj želiš? (neobvezno)",
     "messagePh": "Pilot, demo, vprašanje …",
@@ -493,5 +497,34 @@
     "title": "Ta postaja ne obstaja.",
     "body": "Stran, ki jo iščete, je odpeljala. Vrnite se na začetek.",
     "cta": "Na začetek"
+  },
+  "audience": {
+    "kicker": "ZA KOGA",
+    "title": "Za vse, ki morajo objavljati — ne samo za agencije",
+    "lead": "Ista Postaja, trije načini dela. Izberi tistega, ki je tvoj.",
+    "perMonth": "{price} / mesec",
+    "items": [
+      {
+        "plan": "solo",
+        "who": "Podjetja in posamezniki",
+        "title": "Objavljaš sam? Postaja je tvoj marketinški oddelek.",
+        "body": "Frizerski salon, gostilna, kmetija, trener ali tvoj osebni profil. Ne potrebuješ agencije in ti ni treba vsak dan iskati idej: naložiš, kar imaš o sebi, in Postaja pripravi objave v tvojem tonu.",
+        "cta": "Preizkusi 7 dni"
+      },
+      {
+        "plan": "studio",
+        "who": "Freelancerji",
+        "title": "Vodiš nekaj strank sam.",
+        "body": "Vsaka stranka ima svoj ton in podobo, ti pa eno orodje namesto šestih. Več strank brez več ur dela.",
+        "cta": "Začni s pilotom"
+      },
+      {
+        "plan": "agency",
+        "who": "Agencije",
+        "title": "5–30 brandov, ena ekipa.",
+        "body": "Mesec objav za vse stranke v enem popoldnevu, oglasi v vseh dimenzijah in AI persona za video.",
+        "cta": "Začni s pilotom"
+      }
+    ]
   }
 }
