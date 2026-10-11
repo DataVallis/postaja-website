@@ -34,6 +34,9 @@ export async function Footer() {
               <span className="font-bold text-paper">{t("legal")}</span>
               <Link href="/pogoji" className={link}>{t("terms")}</Link>
               <Link href="/zasebnost" className={link}>{t("privacy")}</Link>
+              <button type="button" className={`cky-banner-element cursor-pointer border-0 bg-transparent p-0 text-left text-[15px] ${link}`}>
+                {t("cookies")}
+              </button>
             </div>
           </nav>
         </div>

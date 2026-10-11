@@ -417,7 +417,8 @@
     "terms": "Splošni pogoji",
     "privacy": "Zasebnost",
     "vat": "ID za DDV",
-    "regNo": "Matična številka"
+    "regNo": "Matična številka",
+    "cookies": "Nastavitve piškotkov"
   },
   "legal": {
     "back": "Nazaj na Postajo",
@@ -431,11 +432,11 @@
         },
         {
           "h": "Katere podatke zbiramo",
-          "p": "Na tej spletni strani zbiramo samo podatke, ki jih vpišete v obrazec: ime, naziv agencije, e-naslov, spletni naslov stranke in neobvezno sporočilo. Ne uporabljamo analitičnih ali oglaševalskih piškotkov."
+          "p": "Na tej spletni strani zbiramo podatke, ki jih vpišete v obrazec: ime, naziv agencije, e-naslov, spletni naslov in neobvezno sporočilo. Z vašo privolitvijo prek pasice za piškotke merimo tudi obisk strani (Google Analytics)."
         },
         {
           "h": "Namen in pravna podlaga",
-          "p": "Podatke uporabimo za pripravo brezplačnega vzorca, odgovor na vaše povpraševanje in dogovor o pilotu ali naročnini. Pravna podlaga je izvajanje ukrepov na vašo zahtevo pred sklenitvijo pogodbe (točka b člena 6(1) GDPR)."
+          "p": "Podatke uporabimo za pripravo brezplačnega vzorca, odgovor na vaše povpraševanje in dogovor o pilotu ali naročnini. Pravna podlaga je izvajanje ukrepov na vašo zahtevo pred sklenitvijo pogodbe (točka b člena 6(1) GDPR). Za merjenje obiska je pravna podlaga vaša privolitev (točka a člena 6(1) GDPR), ki jo lahko kadar koli prekličete."
         },
         {
           "h": "Hramba",
@@ -443,7 +444,7 @@
         },
         {
           "h": "Obdelovalci",
-          "p": "Spletna stran in aplikacija tečeta na strežnikih ponudnika Hetzner Online GmbH v EU. E-pošto pošiljamo prek ponudnika e-poštnih storitev. Podatkov ne prodajamo in jih ne prenašamo izven EGP brez ustreznih zaščitnih ukrepov."
+          "p": "Spletna stran in aplikacija tečeta na strežnikih ponudnika Hetzner Online GmbH v EU. E-pošto pošiljamo prek ponudnika e-poštnih storitev. Obisk strani meri Google Analytics (Google Ireland Ltd.), privolitve za piškotke upravlja CookieYes. Podatkov ne prodajamo in jih ne prenašamo izven EGP brez ustreznih zaščitnih ukrepov."
         },
         {
           "h": "Vaše pravice",
@@ -451,7 +452,7 @@
         },
         {
           "h": "Piškotki",
-          "p": "Stran uporablja samo nujen piškotek za izbiro jezika (NEXT_LOCALE). Za ta piškotek privolitev ni potrebna."
+          "p": "Nujni piškotki (izbira jezika, shranjena privolitev) delujejo vedno. Analitični piškotki se nastavijo šele, ko jih sprejmete v pasici. Izbiro lahko kadar koli spremenite z gumbom spodaj. Seznam vseh piškotkov je v tabeli."
         }
       ]
     },
@@ -491,7 +492,9 @@
           "p": "O spremembah pogojev vas obvestimo po e-pošti vsaj 30 dni vnaprej. Za pogoje velja pravo Republike Slovenije."
         }
       ]
-    }
+    },
+    "cookieSettings": "Nastavitve piškotkov",
+    "cookieTable": "Seznam piškotkov"
   },
   "notFound": {
     "title": "Ta postaja ne obstaja.",

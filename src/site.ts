@@ -9,6 +9,10 @@ export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://postaja.eu"
 /** The Postaja app (portal). Login and signup links point here. */
 export const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? "https://peron.postaja.eu";
 
+/** Google Analytics 4 and CookieYes (consent banner + cookie table). Analytics only runs after consent. */
+export const GA_ID = "G-40TKXW3H1G";
+export const COOKIEYES_ID = "c2bb628f84afe4e17a840f8f38119e94";
+
 export const company = {
   name: "David Tacer s.p.",
   street: "Robindvor 39",

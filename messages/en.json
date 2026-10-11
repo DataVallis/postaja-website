@@ -417,7 +417,8 @@
     "terms": "Terms",
     "privacy": "Privacy",
     "vat": "VAT ID",
-    "regNo": "Registration no."
+    "regNo": "Registration no.",
+    "cookies": "Cookie settings"
   },
   "legal": {
     "back": "Back to Postaja",
@@ -431,11 +432,11 @@
         },
         {
           "h": "What we collect",
-          "p": "On this website we only collect what you enter in the form: name, agency, email, the client's web address and an optional message. We use no analytics or advertising cookies."
+          "p": "On this website we collect what you enter in the form: name, agency, email, web address and an optional message. With your consent through the cookie banner we also measure visits (Google Analytics)."
         },
         {
           "h": "Purpose and legal basis",
-          "p": "We use the data to prepare the free sample, answer your enquiry and agree on a pilot or subscription. The legal basis is taking steps at your request before entering into a contract (Art. 6(1)(b) GDPR)."
+          "p": "We use the data to prepare the free sample, answer your enquiry and agree on a pilot or subscription. The legal basis is taking steps at your request before entering into a contract (Art. 6(1)(b) GDPR). For visit measurement the legal basis is your consent (Art. 6(1)(a) GDPR), which you can withdraw at any time."
         },
         {
           "h": "Retention",
@@ -443,7 +444,7 @@
         },
         {
           "h": "Processors",
-          "p": "The website and app run on servers of Hetzner Online GmbH in the EU. Email is sent through an email service provider. We never sell data and do not transfer it outside the EEA without appropriate safeguards."
+          "p": "The website and app run on servers of Hetzner Online GmbH in the EU. Email is sent through an email service provider. Visits are measured with Google Analytics (Google Ireland Ltd.); cookie consent is managed by CookieYes. We never sell data and do not transfer it outside the EEA without appropriate safeguards."
         },
         {
           "h": "Your rights",
@@ -451,7 +452,7 @@
         },
         {
           "h": "Cookies",
-          "p": "The site only uses a necessary cookie for the language choice (NEXT_LOCALE). No consent is required for it."
+          "p": "Necessary cookies (language choice, your saved consent) always work. Analytics cookies are set only after you accept them in the banner. You can change your choice any time with the button below. All cookies are listed in the table."
         }
       ]
     },
@@ -491,7 +492,9 @@
           "p": "We notify you of changes by email at least 30 days in advance. These terms are governed by the law of the Republic of Slovenia."
         }
       ]
-    }
+    },
+    "cookieSettings": "Cookie settings",
+    "cookieTable": "Cookie list"
   },
   "notFound": {
     "title": "This stop doesn't exist.",

@@ -41,6 +41,19 @@ export async function LegalPage({ kind }: { kind: "privacy" | "terms" }) {
               <p className="m-0 text-[17px] leading-relaxed text-muted">{fill(s.p)}</p>
             </section>
           ))}
+          {kind === "privacy" && (
+            <section className="flex flex-col gap-4">
+              <div>
+                {/* CookieYes reopens its preference centre on any element with this class. */}
+                <button type="button" className="cky-banner-element cursor-pointer rounded-[11px] border-[1.5px] border-ink bg-transparent px-4 py-3 text-[15px] font-bold text-ink hover:bg-ink hover:text-paper">
+                  {t("cookieSettings")}
+                </button>
+              </div>
+              <h2 className="m-0 text-xl font-bold tracking-[-0.015em]">{t("cookieTable")}</h2>
+              {/* CookieYes fills this element with the live cookie list from its last scan. */}
+              <div className="cky-audit-table-element overflow-x-auto text-[15px]" />
+            </section>
+          )}
         </article>
       </main>
       <Footer />

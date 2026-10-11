@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Tracking } from "@/components/Tracking";
 import { routing } from "@/i18n/routing";
 import { SITE_URL } from "@/site";
 // Self-hosted fonts (no request to Google): Inter with the optical-size axis gives the display cut for headlines.
@@ -49,6 +50,9 @@ export default async function LocaleLayout({ children, params }: { children: Rea
 
   return (
     <html lang={locale}>
+      <head>
+        <Tracking />
+      </head>
       <body>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
